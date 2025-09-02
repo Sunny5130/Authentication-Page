@@ -153,10 +153,3 @@ app.post("/login",async(req,res)=>{
              res.send("Password is not correct");
         }
 })
-
-
-
-app.listen(3000,()=>{
-    console.log("Server run at port: 3000");
-})
-
