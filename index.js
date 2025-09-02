@@ -155,6 +155,7 @@ app.post("/login",async(req,res)=>{
 })
 
 
+//------------------server started---------//
 app.listen(3000,()=>{
     console.log("Server run at port: 3000");
 })
